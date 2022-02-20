@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+</head>
+
+<body>
+    <h3>Tony's Contact</h3>
+    <p>Stark Tower, New York</p>
+    <p>88800022311</p>
+    <p>tonystark@gmail.com</p>
+    <a href="index.html">Back</a>
+    <hr>
+    <h3>Stark Internship Application Form</h3>
+    <form action="mailto:info@starkinternship.com" method="post">
+        <table cellspacing="15">
+            <tr>
+                <td><label>Enter your name: </label></td>
+                <td><input name="yourName" type="text" required></td>
+            </tr>
+            <tr>
+                <td><label>Enter your e-mail: </label></td>
+                <td><input type="email" name="yourEmail" id="" required></td>
+            </tr>
+            <tr>
+                <td><label>Gender: </label></td>
+                <td>
+                    <select name="yourGender" id="gender" required>
+                        <option value="">please select</option>
+                        <option value="Male">Male</option>
+                        <option value="Female">Female</option>
+                        <option value="other">other</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><label>Date of birth: </label></td>
+                <td><input type="date" name="DOB" id=""></td>
+            </tr>
+            <tr>
+                <td><label>Are you eligible for intership? </label></td>
+                <td><input type="checkbox" name="Eligiblity" id="" required></td>
+            </tr>
+            <tr>
+                <td><label>Range of your skill-sets: </label></td>
+                <td><input type="range" name="yourSkills" id="" min="35" max="100"></td>
+            </tr>
+            <tr>
+                <td><label>Upload your Documents: </label></td>
+                <td><input type="file" name="Files" id=""></td>
+            </tr>
+            <tr>
+                <td><label>Your message! </label></td>
+                <td><textarea name="yourMessage" id="" cols="20" rows="6"></textarea></td>
+            </tr>
+            <tr>
+                <td><input type="reset"></td>
+                <td><input type="submit"></td>
+            </tr>
+        </table>
+    </form>
+</body>
+
+</html>
